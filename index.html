@@ -1,54 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Descrição da página em ate 160 caracteres" />
-    <meta name="keywords" content="palavra1, palavra2, palavra3">
-    <meta name="author" content="LuanPDD">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Fundamentos HTML" />
-    <meta property="og:description" content="Descrição da página em ate 160 caracteres" />
-    <meta property="og:url" content="https://cheatsheets.zip/index" />
-    <meta property="og:image" content="https://xxx.com/image.jpg" />
-
-    <title>Aula 05</title>
-
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 
 <body>
+    <div class="tela">
+        <h2>Login - DevCarl</h2>
+        <form action="#" method="post" class="login">
+            <label for="username"> 👤 Nome</label>
+            <input type="text" id="username" name="username" required placeholder="Usuário" />
 
-    <header>
-        <aside>
-            <nav>
-                <!-- Navegação do site -->
-            </nav>
-        </aside>
-    </header>
-
-    <main>
-        <section>
-            <!-- Conteudo principal do teu site -->
-             <div class="quadrado"></div>
-             <div class="circulo"></div>
-
-             <button class="bn1">ttt</button>
-             <button class="bn2">ttt</button>
-             <button class="bn3">ttt</button>
-             <button class="bn4">ttt</button>
-
-        </section>
-    </main>
-
-    <footer>
-        <!-- Rodapé do site -->
-    </footer>
+            <label for="password">🔐 Senha</label>
+            <input type="password" id="password" name="password" required placeholder="••••••••">
+            <div class="socials">
+                <button type="button" class="google">Entrar com Google</button>
+                <button type="button" class="git">Entrar com GitHub</button>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
 </body>
 
 </html>
